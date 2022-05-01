@@ -31,7 +31,7 @@ painting.bind('<B1-Motion>',paint)
 # for <frame 2>
 # define a label for function panel
 Label(frame2,text='<Function Panel>').grid(row=0,column=0,sticky=N)
-#改变颜色的功能爱需要进一步的完善和更新，目前还不可用
+
 # set labels to explain different buttons for different functions
 Label(frame2,text='(1)Press the buttons to change the color of the drawing lines: ').grid(row=1,column=0)
 # set the color change options
